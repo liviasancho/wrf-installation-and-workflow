@@ -1,0 +1,15 @@
+# conda env create --force -f env_cria_grades_wrf.yml
+name: cria_grades_wrf
+channels:
+  - conda-forge
+dependencies:
+  - geopy
+  - numpy
+  - xarray
+  - netcdf4
+  - matplotlib
+  - cartopy
+  - geopandas
+
+
+

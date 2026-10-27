@@ -1,0 +1,63 @@
+{
+    "share": {
+        "wrf_core": "'ARW'",
+        "max_dom": 3,
+        "start_date": [
+            "'2023-01-01_00:00:00'",
+            "'2023-01-01_00:00:00'",
+            "'2023-01-01_00:00:00'"
+        ],
+        "end_date": [
+            "'2023-01-02_18:00:00'",
+            "'2023-01-02_18:00:00'",
+            "'2023-01-02_18:00:00'"
+        ],
+        "interval_seconds": 21600,
+        "io_form_geogrid": 2
+    },
+    "geogrid": {
+        "parent_id": [
+            1,
+            1,
+            2
+        ],
+        "parent_grid_ratio": [
+            1,
+            3,
+            3
+        ],
+        "geog_data_res": [
+            "'default'",
+            "'default'",
+            "'default'"
+        ],
+        "dx": 9000,
+        "dy": 9000,
+        "map_proj": "'mercator'",
+        "ref_lat": -22.2,
+        "ref_lon": -40.75,
+        "truelat1": -26.4955,
+        "truelat2": 0,
+        "stand_lon": -40.75,
+        "geog_data_path": "'/home/numa19/WRF/GEOG'",
+        "opt_geogrid_tbl_path": "'/home/numa19/Rebeca/WRF/wps/geogrid/'"
+    },
+    "ungrib": {
+        "out_format": "'WPS'",
+        "prefix": "'FILE'"
+    },
+    "metgrid": {
+        "opt_metgrid_tbl_path": "'/home/numa19/Rebeca/WRF/wps/metgrid/'"
+    },
+    "extra": {
+        "domain_area_extent_ratio": 3,
+        "lat_n": -20.65,
+        "lat_s": -23.40,
+        "lon_e": -40.5,
+        "lon_w": -45.0
+    },
+    "ref_lat": -22.21,
+    "ref_lon": -40.935,
+    "truelat1": -22.2,
+    "stand_lon": -40.75
+}
