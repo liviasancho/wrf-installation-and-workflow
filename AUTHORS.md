@@ -6,15 +6,15 @@ This file acknowledges authorship of the original WRF tutorials and Python scrip
 
 The WRF installation, compilation, and execution tutorials were authored by:
 
-- Lívia
-- Rebeca
-- Maurício
+- Lívia Sancho
+- Rebeca Lyra
+- Maurício Soares da Silva
 
 This list is preliminary and may be expanded. Individual responsibility for specific tutorial sections has not yet been established.
 
 ## Python script author
 
-**Rebeca** is credited as the author of the original Python scripts included in `scripts/geogrid/`:
+**Rebeca Lyra** is credited as the author of the original Python scripts included in `scripts/geogrid/`:
 
 - `create_namelist_wps.py`
 - `generate_grid.py`
@@ -22,17 +22,17 @@ This list is preliminary and may be expanded. Individual responsibility for spec
 - `correct_truelat1.py`
 - `aux_func.py`
 
-This attribution concerns original script authorship. Changes subsequently made to adapt the scripts for this repository should be tracked separately in version control.
+This attribution concerns original script authorship. We performed tracked changes to adapt the scripts for this repository in version control.
 
 ## Other contributors
 
 The following people were identified as additional project contributors, without further specification of individual responsibilities:
 
-- Maurício
-- Rebeca
-- Larissa
+- Maurício Soares da Silva
+- Rebeca Lyra
+- Larissa de Freitas
 - Nilton
-- Lívia
+- Lívia Sancho
 
 Their inclusion here does not imply authorship of every document or script.
 
