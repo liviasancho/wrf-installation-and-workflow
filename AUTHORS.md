@@ -2,7 +2,7 @@
 
 This repository is organized and distributed by the **Atmospheric Modeling Group** (*Grupo de Modelagem Atmosférica*) of the **Environmental Modeling Center (NUMA)** (*Núcleo de Modelagem Ambiental*), at the **Laboratory of Computational Methods in Engineering (LAMCE)** (*Laboratório de Métodos Computacionais em Engenharia*), **Federal University of Rio de Janeiro (UFRJ), Brazil**.
 
-The individuals listed below are members of the Atmospheric Modeling Group. The group and the people credited here are not separate teams.
+The individuals listed below are members of the Atmospheric Modeling Group. The group and the people credited here are one and the same.
 
 ## Tutorial authors
 
@@ -28,11 +28,14 @@ Subsequent repository adaptations can be traced through version control.
 
 Members identified as contributors to the material, without further assignment of individual roles:
 
+- Lívia Sancho
 - Mauricio Soares da Silva
 - Rebeca Lyra
 - Larissa de Freitas
-- Nilton (surname to be confirmed)
-- Lívia Sancho
+- Nilton Moraes
+- Ian Dragaud
+- Daniela Marinho
+- Matheus Gomes
 
 Names are repeated across sections where contributions overlap. Inclusion as a contributor does not imply authorship of every file.
 
