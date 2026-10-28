@@ -1,0 +1,15 @@
+name: wrf-geogrid
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - geopy
+  - numpy
+  - netcdf4
+  - matplotlib
+  - cartopy
+  - xarray
+  - geopandas
+  - pytest
