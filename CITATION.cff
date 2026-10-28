@@ -4,14 +4,17 @@ type: software
 title: "WRF Installation and Workflow"
 abstract: >-
   Installation, compilation, configuration, and execution guide for WRF-ARW
-  and WPS, with Python utilities for preparing and visualizing domains.
+  and WPS, with Python utilities to prepare and visualize domains.
 authors:
   - family-names: Sancho
     given-names: Lívia
+    orcid: "https://orcid.org/0000-0001-9925-4841"
   - family-names: Lyra
     given-names: Rebeca
+    orcid: ""
   - family-names: Soares da Silva
     given-names: Mauricio
+    orcid: ""
 keywords:
   - WRF
   - WPS
