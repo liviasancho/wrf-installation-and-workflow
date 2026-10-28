@@ -8,6 +8,17 @@ These scripts are **tools**, not mere examples, but have not been validated agai
 - `create_namelist_wps.py`: original domain estimator from the tutorial, now callable through a safe CLI with explicit input/output. Its computed domain geometry and resulting namelist **must be reviewed** before any scientific run; not integrated into the standard execution path.
 - `aux_func.py`: original helper, currently not required by the safer workflow; retained for traceability.
 
+## Install Python dependencies
+
+From the repository root:
+
+```bash
+conda env create -f environment.yml
+conda activate wrf-geogrid
+```
+
+See [environment notes](../../environment/README.md). WRF/WPS executables must be installed separately.
+
 ## Run GEOGRID
 
 ```bash
