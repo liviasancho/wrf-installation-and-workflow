@@ -1,20 +1,20 @@
 # Authors and contributors
 
-This file acknowledges authorship of the original WRF tutorials and Python scripts, and other contributors to the project. Additional names and details may be added as they are confirmed. Only the contributions explicitly identified by the project team are attributed below.
+This repository is organized and distributed by the **Atmospheric Modeling Group** (*Grupo de Modelagem Atmosférica*) of the **Environmental Modeling Center (NUMA)** (*Núcleo de Modelagem Ambiental*), at the **Laboratory of Computational Methods in Engineering (LAMCE)** (*Laboratório de Métodos Computacionais em Engenharia*), **Federal University of Rio de Janeiro (UFRJ), Brazil**.
+
+The individuals listed below are members of the Atmospheric Modeling Group. The group and the people credited here are not separate teams.
 
 ## Tutorial authors
 
-The WRF installation, compilation, and execution tutorials were authored by:
-
 - Lívia Sancho
 - Rebeca Lyra
-- Maurício Soares da Silva
+- Mauricio Soares da Silva
 
-This list is preliminary and may be expanded. Individual responsibility for specific tutorial sections has not yet been established.
+The list of tutorial authors is preliminary and may be extended as further contributions are confirmed.
 
-## Python script author
+## Original Python scripts
 
-**Rebeca Lyra** is credited as the author of the original Python scripts included in `scripts/geogrid/`:
+**Rebeca Lyra** authored the original Python scripts for domain preparation and visualization:
 
 - `create_namelist_wps.py`
 - `generate_grid.py`
@@ -22,24 +22,24 @@ This list is preliminary and may be expanded. Individual responsibility for spec
 - `correct_truelat1.py`
 - `aux_func.py`
 
-This attribution concerns original script authorship. We performed tracked changes to adapt the scripts for this repository in version control.
+Subsequent repository adaptations can be traced through version control.
 
-## Other contributors
+## Additional contributors
 
-The following people were identified as additional project contributors, without further specification of individual responsibilities:
+Members identified as contributors to the material, without further assignment of individual roles:
 
-- Maurício Soares da Silva
+- Mauricio Soares da Silva
 - Rebeca Lyra
 - Larissa de Freitas
-- Nilton
+- Nilton (surname to be confirmed)
 - Lívia Sancho
 
-Their inclusion here does not imply authorship of every document or script.
+Names are repeated across sections where contributions overlap. Inclusion as a contributor does not imply authorship of every file.
 
-## Testing and validation
+## Validation
 
-The installation and execution workflow was used for WRF installation, compilation, and complete WRF tests on Rocky Linux 9; the original Python scripts were also used. This information was reported by a project participant. The repository adaptations have not thereby been independently validated.
+The original installation and execution workflow was used successfully on Rocky Linux 9, including complete WRF tests. The original Python scripts were also used in practice. Repository-specific adaptations should be independently checked before being declared validated.
 
-## Attribution and maintenance
+## Updates
 
-Additional full names, affiliations, contributions, and validation records can be added when supplied and confirmed. Authorship acknowledgments do not determine software licensing, which must be handled separately.
+Additional authors, completed names, affiliations, and more detailed contributions can be included when confirmed. This attribution does not establish copyright ownership or software licensing.

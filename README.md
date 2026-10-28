@@ -4,6 +4,12 @@ A practical guide to **installing, compiling, configuring, and running WRF-ARW a
 
 > **Status: reviewed documentation, repository draft.** The original procedure was used to install and run WRF on Rocky Linux 9, and the original Python utilities have been used in practice, as reported by the tutorial contributor. The *repository-adapted* scripts and instructions have not yet been independently validated in a clean environment. See [validation status](STATUS.md).
 
+## Developed and distributed by
+
+This guide is organized and distributed by the **Atmospheric Modeling Group** (*Grupo de Modelagem Atmosférica*) of **NUMA / LAMCE / UFRJ**, Brazil. The tutorial authors and contributors listed in [AUTHORS.md](AUTHORS.md) are members of this group.
+
+**Tutorial authors:** Lívia Sancho, Rebeca Lyra, and Mauricio Soares da Silva. **Original Python scripts:** Rebeca Lyra. Additional members contributed to the project; see [AUTHORS.md](AUTHORS.md).
+
 ## Start here
 
 1. [Environment prerequisites](docs/01-environment.md)
@@ -44,4 +50,4 @@ The project does not distribute the WRF/WPS source or copyrighted external meteo
 
 ## License, authorship, and citation
 
-See [AUTHORS.md](AUTHORS.md) for attribution and contributions (names pending confirmation). A source-code license has not been assigned. Review ownership and permissions before a public release.
+See [AUTHORS.md](AUTHORS.md) for group membership and individual contributions and [CITATION.cff](CITATION.cff) for machine-readable citation metadata. The DOI and GitHub URL can be added once published. A source-code license has not yet been assigned; review ownership and permissions before public release.
