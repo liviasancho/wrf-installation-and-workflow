@@ -2,7 +2,7 @@
 
 A practical guide to **installing, compiling, configuring, and running WRF-ARW and WPS**, adapted from two author-provided Notion tutorials. Initial platform: **Rocky Linux 9 with GNU compilers**. Other operating systems require adaptation.
 
-> **Status: documentation and code review draft.** The instructions and scripts have been organized and statically checked; a clean system build, a complete WPS/WRF run, and scientific validation have **not** been performed. Do not treat this as a certified installation procedure.
+> **Status: reviewed documentation, repository draft.** The original procedure was used to install and run WRF on Rocky Linux 9, and the original Python utilities have been used in practice, as reported by the tutorial contributor. The *repository-adapted* scripts and instructions have not yet been independently validated in a clean environment. See [validation status](STATUS.md).
 
 ## Start here
 
@@ -44,4 +44,4 @@ The project does not distribute the WRF/WPS source or copyrighted external meteo
 
 ## License, authorship, and citation
 
-**Pending confirmation by repository maintainers.** A source-code license has not been assigned. Review ownership and permissions before a public release.
+See [AUTHORS.md](AUTHORS.md) for attribution and contributions (names pending confirmation). A source-code license has not been assigned. Review ownership and permissions before a public release.
