@@ -29,6 +29,18 @@ This guide is organized and distributed by the **Atmospheric Modeling Group** (*
 
 **Do not run UNGRIB when the input is already in the appropriate WPS intermediate format.** Both forcing cases are explained in this tutorial.
 
+## Python environment for GEOGRID utilities
+
+The repository includes a root-level [`environment.yml`](environment.yml) for the Python domain-generation and plotting tools. With Conda or Mamba installed:
+
+```bash
+conda env create -f environment.yml
+conda activate wrf-geogrid
+python -m pytest tests/
+```
+
+The original environment specification is retained at [`environment/geogrid-conda.yml`](environment/geogrid-conda.yml). The Python environment **does not install or compile WRF/WPS**; see the [environment notes](environment/README.md).
+
 ## Reusable tools
 
 [`scripts/geogrid/`](scripts/geogrid/README.md) contains domain generation/inspection helpers. These scripts are not distributed as figures only; they are designed as utilities, but each scientific configuration must be reviewed and tested.
