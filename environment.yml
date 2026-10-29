@@ -13,3 +13,5 @@ dependencies:
   - xarray
   - geopandas
   - pytest
+  - requests
+  - urllib3

@@ -46,3 +46,9 @@ The original installation and execution workflow was used successfully on Rocky 
 ## Updates
 
 Additional authors, completed names, affiliations, and more detailed contributions can be included when confirmed. This attribution does not establish copyright ownership or software licensing.
+
+## GDAS/FNL data acquisition script
+
+- **Elisa Passos** — author of the original Python downloader (`source-original/faz_download_gfs.py`), adapted in `scripts/forcing/download_gdas_fnl.py`.
+
+The adapted implementation retains attribution to the original author; modifications are documented in the script and Git history. Elisa is not automatically listed as a tutorial author or a member of the Atmospheric Modeling Group.

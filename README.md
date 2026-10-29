@@ -1,5 +1,8 @@
 # WRF Installation and Workflow
 
+> **Start here:** [Complete installation-to-simulation guide](docs/00-start-here.md). Every detailed command from the group's two Notion tutorials is reproduced in the `docs/` chapters. Notion access is **not required**.
+
+
 A practical guide to **installing, compiling, configuring, and running WRF-ARW and WPS**, adapted from two author-provided Notion tutorials. Initial platform: **Rocky Linux 9 with GNU compilers**. Other operating systems require adaptation.
 
 > **Status: reviewed documentation, repository draft.** The original procedure was used to install and run WRF on Rocky Linux 9, and the original Python utilities have been used in practice, as reported by the tutorial contributor. The *repository-adapted* scripts and instructions have not yet been independently validated in a clean environment. See [validation status](STATUS.md).
@@ -45,6 +48,19 @@ The original environment specification is retained at [`environment/geogrid-cond
 
 [`scripts/geogrid/`](scripts/geogrid/README.md) contains domain generation/inspection helpers. These scripts are not distributed as figures only; they are designed as utilities, but each scientific configuration must be reviewed and tested.
 
+## Meteorological input downloader
+
+Use [`scripts/forcing/download_gdas_fnl.py`](scripts/forcing/README.md) to retrieve NCEP GDAS/FNL 0.25° analysis files (6-hourly, `f00`, GRIB2) from NCAR GDEX `d083003`. This is a GDAS/FNL analysis product, **not a regular GFS forecast cycle**. The original `faz_download_gfs.py`, authored by **Elisa Passos**, is preserved in [`source-original/`](source-original/).
+
+```bash
+conda env create -f environment.yml
+conda activate wrf-geogrid
+python scripts/forcing/download_gdas_fnl.py --start 2022-01-01T00:00 --end 2022-01-01T12:00 --output-dir data/raw/gdas_fnl --dry-run
+# Remove --dry-run only when ready for large downloads.
+```
+
+Follow the [forcing guide](docs/06-forcing.md) for GRIB → UNGRIB → METGRID; use the [WRF run guide](docs/11-real-case-test.md) for remaining steps. The downloader and the revised instructions have not undergone a live end-to-end validation in this release.
+
 ## Source provenance
 
 Original Portuguese Notion exports, including all source pages and attachments, are preserved in [`source-notion/`](source-notion/README.md). Curated documentation is in English and distinguishes the original procedure from editorial corrections or general WRF guidance.
@@ -62,4 +78,4 @@ The project does not distribute the WRF/WPS source or copyrighted external meteo
 
 ## License, authorship, and citation
 
-See [AUTHORS.md](AUTHORS.md) for group membership and individual contributions and [CITATION.cff](CITATION.cff) for machine-readable citation metadata. The DOI and GitHub URL can be added once published. A source-code license has not yet been assigned; review ownership and permissions before public release.
+See [AUTHORS.md](AUTHORS.md) for group membership and individual contributions and [CITATION.cff](CITATION.cff) for machine-readable citation metadata. The DOI and GitHub URL can be added once published. The repository currently contains an Apache-2.0 LICENSE file. Confirm that all rightsholders authorize distribution of contributed material under this license before publication.
