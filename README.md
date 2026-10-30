@@ -1,7 +1,8 @@
 # WRF Installation and Workflow
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23817535.svg)](https://doi.org/10.5281/zenodo.23817535)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23817534.svg)](https://doi.org/10.5281/zenodo.23817534)
+
 
 > **Start here:** [Complete installation-to-simulation guide](docs/00-start-here.md). Every detailed command from the group's two Notion tutorials is reproduced in the `docs/` chapters. Notion access is **not required**.
 
@@ -82,15 +83,19 @@ The project does not distribute the WRF/WPS source or copyrighted external meteo
 
 ## Citation
 
-If you use this repository in your research,
-please cite:
+If you use this repository in your research, please cite:
 
-Sancho, L., Lyra, R., & Soares da Silva, M.
-(2026). *WRF Installation and Workflow*.
-Zenodo.
+Sancho, L., Lyra, R., & Soares da Silva, M. (2026).
+*WRF Installation and Workflow*.
+Zenodo. https://doi.org/10.5281/zenodo.23817534
+
+For reproducibility of a specific version, please cite
+the corresponding version DOI.
+
+**Version v1.0.1:**
 https://doi.org/10.5281/zenodo.23817535
 
-Citation metadata are provided in
+Citation metadata are available in
 [CITATION.cff](CITATION.cff).
 
 ## License
