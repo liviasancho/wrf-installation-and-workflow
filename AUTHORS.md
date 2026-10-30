@@ -37,6 +37,10 @@ Members identified as contributors to the material, without further assignment o
 - Daniela Marinho
 - Matheus Gomes
 
+**Elisa Passos**
+- Original author of the GDAS/FNL data download script (`faz_download_gfs.py`).
+- The script was adapted for integration into the WRF Installation and Workflow repository, with attribution to the original author.
+
 Names are repeated across sections where contributions overlap. Inclusion as a contributor does not imply authorship of every file.
 
 ## Validation
