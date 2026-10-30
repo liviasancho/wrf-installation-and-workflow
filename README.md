@@ -1,5 +1,8 @@
 # WRF Installation and Workflow
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23817535.svg)](https://doi.org/10.5281/zenodo.23817535)
+
 > **Start here:** [Complete installation-to-simulation guide](docs/00-start-here.md). Every detailed command from the group's two Notion tutorials is reproduced in the `docs/` chapters. Notion access is **not required**.
 
 
@@ -76,6 +79,32 @@ The project does not distribute the WRF/WPS source or copyrighted external meteo
 - [WRF source](https://github.com/wrf-model/WRF)
 - [WPS source](https://github.com/wrf-model/WPS)
 
-## License, authorship, and citation
 
-See [AUTHORS.md](AUTHORS.md) for group membership and individual contributions and [CITATION.cff](CITATION.cff) for machine-readable citation metadata. The DOI and GitHub URL can be added once published. The repository currently contains an Apache-2.0 LICENSE file. Confirm that all rightsholders authorize distribution of contributed material under this license before publication.
+## Citation
+
+If you use this repository in your research,
+please cite:
+
+Sancho, L., Lyra, R., & Soares da Silva, M.
+(2026). *WRF Installation and Workflow*.
+Zenodo.
+https://doi.org/10.5281/zenodo.23817535
+
+Citation metadata are provided in
+[CITATION.cff](CITATION.cff).
+
+## License
+
+This repository is distributed under the
+Apache License 2.0.
+
+See [LICENSE](LICENSE) for details.
+
+## Authors and Contributors
+
+This repository is developed and distributed
+by the Atmospheric Modeling Group of
+NUMA/LAMCE/UFRJ.
+
+Individual contributions and acknowledgments
+are available in [AUTHORS.md](AUTHORS.md).
