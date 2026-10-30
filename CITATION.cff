@@ -1,10 +1,13 @@
+
 cff-version: 1.2.0
-message: "If you use this tutorial or its accompanying scripts, please cite this repository."
+message: >-
+  If you use this repository in your research,
+  please cite it using the metadata provided here.
+
+title: WRF Installation and Workflow
+
 type: software
-title: "WRF Installation and Workflow"
-abstract: >-
-  Installation, compilation, configuration, and execution guide for WRF-ARW
-  and WPS, with Python utilities to prepare and visualize domains.
+
 authors:
   - family-names: Sancho
     given-names: Lívia
@@ -15,10 +18,25 @@ authors:
   - family-names: Soares da Silva
     given-names: Mauricio
     orcid: ""
+
+abstract: >-
+  Step-by-step documentation and Python utilities
+  for installing, compiling, configuring, and
+  executing the Weather Research and Forecasting
+  (WRF) model and the WRF Preprocessing System
+  (WPS). Developed by the Atmospheric Modeling
+  Group of NUMA/LAMCE at the Federal University
+  of Rio de Janeiro (UFRJ), Brazil.
+
+doi: 10.5281/zenodo.23817535
+
+license: Apache-2.0
+
 keywords:
   - WRF
   - WPS
   - atmospheric modeling
-  - geogrid
+  - numerical weather prediction
+  - scientific computing
   - Rocky Linux
-  - reproducibility
+  - Python
