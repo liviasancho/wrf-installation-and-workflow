@@ -28,6 +28,7 @@ abstract: >-
   Group of NUMA/LAMCE at the Federal University
   of Rio de Janeiro (UFRJ), Brazil.
 
+version: 1.0.1
 doi: 10.5281/zenodo.23817535
 
 license: Apache-2.0
